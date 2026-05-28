@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: mundial-asesorarseg
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=300, must-revalidate
+      - path: /data/*
+        name: Cache-Control
+        value: public, max-age=60, must-revalidate

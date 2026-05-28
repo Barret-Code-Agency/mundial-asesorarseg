@@ -1,0 +1,252 @@
+{
+  "torneo": {
+    "nombre": "Copa Mundial FIFA 2026",
+    "anfitriones": ["México", "Canadá", "Estados Unidos"],
+    "inicio": "2026-06-11",
+    "final": "2026-07-19",
+    "equipos": 48,
+    "partidos": 104,
+    "_nota": "Grupos OFICIALES (sorteo FIFA 5/6-dic-2025, Kennedy Center). Fixture: jornada 1 según fuentes (La Nación / búsquedas) en sus fechas confirmadas; resto en fechas tentativas con patrón FIFA estándar (J1: 1v2 + 3v4 / J2: 1v3 + 2v4 / J3: 1v4 + 2v3). Sedes y horarios pueden ajustarse contra el calendario FIFA oficial editando este archivo."
+  },
+  "sedes": [
+    {
+      "id": "azteca", "nombre": "Estadio Azteca", "ciudad": "Ciudad de México", "pais": "México", "capacidad": 87000, "destacado": "Partido inaugural",
+      "año": 1966,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg/1280px-Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg",
+      "descripcion": "Único estadio del mundo que alberga tres Mundiales (1970, 1986 y 2026). Acá Maradona hizo el gol del siglo y la Mano de Dios contra Inglaterra.",
+      "ciudad_info": "Capital de México y mayor metrópoli del país: 9 millones en la ciudad y 22 en el área metropolitana, a 2.240 m sobre el nivel del mar."
+    },
+    {
+      "id": "bbva", "nombre": "Estadio BBVA", "ciudad": "Monterrey", "pais": "México", "capacidad": 53500,
+      "año": 2015,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mexico_Guadalupe_Monterrey_Estadio_BBVA_Bancomer_fifa_world_cup_2026_6.JPG/1280px-Mexico_Guadalupe_Monterrey_Estadio_BBVA_Bancomer_fifa_world_cup_2026_6.JPG",
+      "descripcion": "Apodado El Gigante de Acero, fue el primer estadio de fútbol de Norteamérica con certificación LEED Plata. Tiene vista directa al Cerro de la Silla.",
+      "ciudad_info": "Tercera ciudad más grande de México y polo industrial del norte, con 5,3 millones de habitantes en su área metropolitana."
+    },
+    {
+      "id": "akron", "nombre": "Estadio Akron", "ciudad": "Guadalajara", "pais": "México", "capacidad": 49813,
+      "año": 2010,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg/1280px-Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg",
+      "descripcion": "Casa del Club Deportivo Guadalajara (Chivas). Su cubierta exterior cubierta de pasto natural lo hace mimetizarse con el paisaje.",
+      "ciudad_info": "Capital de Jalisco, cuna del mariachi y el tequila; segunda urbe más grande de México con 5,2 millones de habitantes."
+    },
+    {
+      "id": "bmo", "nombre": "BMO Field", "ciudad": "Toronto", "pais": "Canadá", "capacidad": 45500,
+      "año": 2007,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Toronto_BMO_Field_in_2024.jpg/1280px-Toronto_BMO_Field_in_2024.jpg",
+      "descripcion": "La sede más chica del Mundial: se amplía con tribunas temporales para llegar a 45.736 lugares. Por reglas FIFA se llamará Toronto Stadium durante el torneo.",
+      "ciudad_info": "La ciudad más poblada de Canadá con 3 millones de habitantes (6,4 en su área metropolitana). Una de las urbes más multiculturales del mundo."
+    },
+    {
+      "id": "bcplace", "nombre": "BC Place", "ciudad": "Vancouver", "pais": "Canadá", "capacidad": 54500,
+      "año": 1983,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/BC_Place_2015_Women%27s_FIFA_World_Cup.jpg/1280px-BC_Place_2015_Women%27s_FIFA_World_Cup.jpg",
+      "descripcion": "Tiene el techo retráctil sostenido por cables más grande del mundo de su tipo, instalado en 2011. Albergó la final del Mundial Femenino 2015.",
+      "ciudad_info": "En la costa del Pacífico, 2,6 millones en su área metropolitana. Famosa por su entorno entre montañas, mar y bosque."
+    },
+    {
+      "id": "att", "nombre": "AT&T Stadium", "ciudad": "Dallas (Arlington)", "pais": "EE.UU.", "capacidad": 80000,
+      "año": 2009,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg/1280px-Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg",
+      "descripcion": "Casa de los Dallas Cowboys. Techo retráctil, dos arcos de casi 90 metros que lo sostienen y una de las pantallas HD colgantes más grandes del mundo. Ampliable a más de 100.000 espectadores.",
+      "ciudad_info": "Dallas–Fort Worth es la cuarta área metropolitana de EE.UU. con más de 8 millones de habitantes; el estadio está en Arlington, entre ambas ciudades."
+    },
+    {
+      "id": "arrowhead", "nombre": "Arrowhead Stadium", "ciudad": "Kansas City", "pais": "EE.UU.", "capacidad": 76416,
+      "año": 1972,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg/1280px-Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg",
+      "descripcion": "Casa de los Kansas City Chiefs de la NFL. Récord Guinness al estadio al aire libre más ruidoso del mundo: 142,2 decibeles registrados en 2014.",
+      "ciudad_info": "Entre los estados de Missouri y Kansas, área metropolitana de 2,2 millones. Conocida por su barbacoa y su escena de jazz."
+    },
+    {
+      "id": "gillette", "nombre": "Gillette Stadium", "ciudad": "Boston (Foxborough)", "pais": "EE.UU.", "capacidad": 64628,
+      "año": 2002,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gillette_Stadium_%28Top_View%29.jpg/1280px-Gillette_Stadium_%28Top_View%29.jpg",
+      "descripcion": "Casa de los New England Patriots de la NFL y los Revolution de la MLS. Tiene un faro y un puente decorativo inspirado en el Longfellow Bridge de Boston en la entrada.",
+      "ciudad_info": "El estadio está en Foxborough, a 35 km al sur de Boston. La cuna histórica de EE.UU. tiene 4,9 millones de habitantes en su área metropolitana."
+    },
+    {
+      "id": "hardrock", "nombre": "Hard Rock Stadium", "ciudad": "Miami Gardens", "pais": "EE.UU.", "capacidad": 64767,
+      "año": 1987,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg/1280px-Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg",
+      "descripcion": "Casa de los Miami Dolphins de la NFL. En 2016 sumaron una cubierta tipo dosel que protege a los espectadores pero deja el campo de juego al descubierto.",
+      "ciudad_info": "Miami concentra una de las mayores comunidades latinas de EE.UU. — 6,2 millones en su área metropolitana."
+    },
+    {
+      "id": "lincoln", "nombre": "Lincoln Financial Field", "ciudad": "Filadelfia", "pais": "EE.UU.", "capacidad": 67594,
+      "año": 2003,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lincoln_Financial_Field_%28Aerial_view%29.jpg/1280px-Lincoln_Financial_Field_%28Aerial_view%29.jpg",
+      "descripcion": "Casa de los Philadelphia Eagles de la NFL. El diseño evoca un águila con tribunas en forma de alas y deja tres esquinas abiertas con vista al skyline.",
+      "ciudad_info": "Primera capital de EE.UU. y lugar donde se firmó la Declaración de Independencia. Área metropolitana de 6,2 millones."
+    },
+    {
+      "id": "levis", "nombre": "Levi's Stadium", "ciudad": "San Francisco Bay Area (Santa Clara)", "pais": "EE.UU.", "capacidad": 68500,
+      "año": 2014,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg/1280px-Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg",
+      "descripcion": "Primer estadio profesional de fútbol americano de EE.UU. en obtener certificación LEED Oro: techo verde y paneles solares en la suite principal.",
+      "ciudad_info": "En Santa Clara, en pleno Silicon Valley, a 65 km al sur de San Francisco. El hub tecnológico más importante del mundo, 7,7 millones de habitantes en la Bahía."
+    },
+    {
+      "id": "lumen", "nombre": "Lumen Field", "ciudad": "Seattle", "pais": "EE.UU.", "capacidad": 68740,
+      "año": 2002,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Qwest_Field_North.jpg/1280px-Qwest_Field_North.jpg",
+      "descripcion": "Casa de los Seahawks de la NFL y los Sounders de la MLS. Forma de herradura con techo parcial que cubre el 70% de las gradas y amplifica el ruido.",
+      "ciudad_info": "La mayor ciudad del Pacífico noroeste, 4 millones en su área metropolitana. Sede de Amazon, Microsoft y Starbucks."
+    },
+    {
+      "id": "mercedes", "nombre": "Mercedes-Benz Stadium", "ciudad": "Atlanta", "pais": "EE.UU.", "capacidad": 71000,
+      "año": 2017,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg/1280px-Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg",
+      "descripcion": "Techo retráctil único en el mundo con ocho paneles triangulares que se abren como molinete simulando alas. La pantalla Halo de 335 m de circunferencia cuelga sobre el campo.",
+      "ciudad_info": "Capital de Georgia y principal hub aéreo del mundo por pasajeros, con 6,3 millones de habitantes en su área metropolitana."
+    },
+    {
+      "id": "metlife", "nombre": "MetLife Stadium", "ciudad": "Nueva York / Nueva Jersey", "pais": "EE.UU.", "capacidad": 82500, "destacado": "Final",
+      "año": 2010,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Metlife_stadium_%28Aerial_view%29.jpg/1280px-Metlife_stadium_%28Aerial_view%29.jpg",
+      "descripcion": "Sede de la FINAL del Mundial 2026 (19 de julio). Único estadio de la NFL compartido por dos equipos (Giants y Jets); la iluminación exterior cambia a azul o verde según juegue uno u otro. Durante el Mundial se llamará New York/New Jersey Stadium.",
+      "ciudad_info": "Está en East Rutherford, a 8 km de Manhattan. El área metropolitana de Nueva York es la más poblada de EE.UU. con más de 19 millones de habitantes."
+    },
+    {
+      "id": "nrg", "nombre": "NRG Stadium", "ciudad": "Houston", "pais": "EE.UU.", "capacidad": 72220,
+      "año": 2002,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nrg_stadium.jpg/1280px-Nrg_stadium.jpg",
+      "descripcion": "Primera instalación de la NFL con techo retráctil. Sus dos paneles se abren sobre la línea de las 50 yardas en 7 minutos. Casa de los Houston Texans.",
+      "ciudad_info": "Cuarta ciudad más poblada de EE.UU. con 7,3 millones en su área metropolitana. Sede del centro espacial de la NASA y capital de la industria energética."
+    },
+    {
+      "id": "sofi", "nombre": "SoFi Stadium", "ciudad": "Los Ángeles (Inglewood)", "pais": "EE.UU.", "capacidad": 70240,
+      "año": 2020,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/SoFi_Stadium_2023.jpg/1280px-SoFi_Stadium_2023.jpg",
+      "descripcion": "Casa compartida de Rams y Chargers de la NFL. Techo translúcido de paneles ETFE y la Infinity Screen: una pantalla suspendida de 1.000 toneladas con 80 millones de píxeles.",
+      "ciudad_info": "Segunda ciudad más poblada de EE.UU., 12,8 millones en su área metropolitana. Inglewood también será sede de los Juegos Olímpicos 2028."
+    }
+  ],
+  "grupos": {
+    "A": ["México", "Sudáfrica", "Corea del Sur", "Chequia"],
+    "B": ["Canadá", "Bosnia-Herzegovina", "Qatar", "Suiza"],
+    "C": ["Brasil", "Marruecos", "Haití", "Escocia"],
+    "D": ["Estados Unidos", "Paraguay", "Australia", "Turquía"],
+    "E": ["Alemania", "Curazao", "Costa de Marfil", "Ecuador"],
+    "F": ["Países Bajos", "Japón", "Suecia", "Túnez"],
+    "G": ["Bélgica", "Egipto", "Irán", "Nueva Zelanda"],
+    "H": ["España", "Cabo Verde", "Uruguay", "Arabia Saudita"],
+    "I": ["Francia", "Senegal", "Iraq", "Noruega"],
+    "J": ["Argentina", "Argelia", "Austria", "Jordania"],
+    "K": ["Portugal", "Uzbekistán", "Colombia", "RD Congo"],
+    "L": ["Inglaterra", "Panamá", "Croacia", "Ghana"]
+  },
+  "partidos": [
+    { "id": 1,  "fase": "grupos", "grupo": "A", "jornada": 1, "fecha": "2026-06-11", "hora": "20:00", "sede": "azteca",     "local": "México",          "visitante": "Sudáfrica" },
+    { "id": 2,  "fase": "grupos", "grupo": "A", "jornada": 1, "fecha": "2026-06-11", "hora": "17:00", "sede": "sofi",       "local": "Corea del Sur",   "visitante": "Chequia" },
+    { "id": 3,  "fase": "grupos", "grupo": "B", "jornada": 1, "fecha": "2026-06-12", "hora": "18:00", "sede": "bmo",        "local": "Canadá",          "visitante": "Bosnia-Herzegovina" },
+    { "id": 4,  "fase": "grupos", "grupo": "D", "jornada": 1, "fecha": "2026-06-12", "hora": "21:00", "sede": "att",        "local": "Estados Unidos",  "visitante": "Paraguay" },
+    { "id": 5,  "fase": "grupos", "grupo": "B", "jornada": 1, "fecha": "2026-06-13", "hora": "15:00", "sede": "bcplace",    "local": "Qatar",           "visitante": "Suiza" },
+    { "id": 6,  "fase": "grupos", "grupo": "C", "jornada": 1, "fecha": "2026-06-13", "hora": "18:00", "sede": "metlife",    "local": "Brasil",          "visitante": "Marruecos" },
+    { "id": 7,  "fase": "grupos", "grupo": "C", "jornada": 1, "fecha": "2026-06-13", "hora": "21:00", "sede": "mercedes",   "local": "Haití",           "visitante": "Escocia" },
+    { "id": 8,  "fase": "grupos", "grupo": "D", "jornada": 1, "fecha": "2026-06-14", "hora": "13:00", "sede": "lumen",      "local": "Australia",       "visitante": "Turquía" },
+    { "id": 9,  "fase": "grupos", "grupo": "E", "jornada": 1, "fecha": "2026-06-14", "hora": "16:00", "sede": "lincoln",    "local": "Alemania",        "visitante": "Curazao" },
+    { "id": 10, "fase": "grupos", "grupo": "F", "jornada": 1, "fecha": "2026-06-14", "hora": "13:00", "sede": "hardrock",   "local": "Países Bajos",    "visitante": "Japón" },
+    { "id": 11, "fase": "grupos", "grupo": "E", "jornada": 1, "fecha": "2026-06-14", "hora": "19:00", "sede": "levis",      "local": "Costa de Marfil", "visitante": "Ecuador" },
+    { "id": 12, "fase": "grupos", "grupo": "F", "jornada": 1, "fecha": "2026-06-14", "hora": "22:00", "sede": "arrowhead",  "local": "Suecia",          "visitante": "Túnez" },
+    { "id": 13, "fase": "grupos", "grupo": "G", "jornada": 1, "fecha": "2026-06-15", "hora": "13:00", "sede": "nrg",        "local": "Bélgica",         "visitante": "Egipto" },
+    { "id": 14, "fase": "grupos", "grupo": "G", "jornada": 1, "fecha": "2026-06-15", "hora": "16:00", "sede": "akron",      "local": "Irán",            "visitante": "Nueva Zelanda" },
+    { "id": 15, "fase": "grupos", "grupo": "H", "jornada": 1, "fecha": "2026-06-15", "hora": "19:00", "sede": "att",        "local": "España",          "visitante": "Cabo Verde" },
+    { "id": 16, "fase": "grupos", "grupo": "H", "jornada": 1, "fecha": "2026-06-15", "hora": "22:00", "sede": "metlife",    "local": "Uruguay",         "visitante": "Arabia Saudita" },
+    { "id": 17, "fase": "grupos", "grupo": "I", "jornada": 1, "fecha": "2026-06-16", "hora": "13:00", "sede": "gillette",   "local": "Francia",         "visitante": "Senegal" },
+    { "id": 18, "fase": "grupos", "grupo": "I", "jornada": 1, "fecha": "2026-06-16", "hora": "16:00", "sede": "bbva",       "local": "Iraq",            "visitante": "Noruega" },
+    { "id": 19, "fase": "grupos", "grupo": "J", "jornada": 1, "fecha": "2026-06-16", "hora": "16:00", "sede": "hardrock",   "local": "Argentina",       "visitante": "Argelia" },
+    { "id": 20, "fase": "grupos", "grupo": "J", "jornada": 1, "fecha": "2026-06-16", "hora": "22:00", "sede": "sofi",       "local": "Austria",         "visitante": "Jordania" },
+    { "id": 21, "fase": "grupos", "grupo": "K", "jornada": 1, "fecha": "2026-06-17", "hora": "13:00", "sede": "mercedes",   "local": "Portugal",        "visitante": "Uzbekistán" },
+    { "id": 22, "fase": "grupos", "grupo": "K", "jornada": 1, "fecha": "2026-06-17", "hora": "16:00", "sede": "lincoln",    "local": "Colombia",        "visitante": "RD Congo" },
+    { "id": 23, "fase": "grupos", "grupo": "L", "jornada": 1, "fecha": "2026-06-17", "hora": "19:00", "sede": "levis",      "local": "Inglaterra",      "visitante": "Panamá" },
+    { "id": 24, "fase": "grupos", "grupo": "L", "jornada": 1, "fecha": "2026-06-17", "hora": "22:00", "sede": "nrg",        "local": "Croacia",         "visitante": "Ghana" },
+
+    { "id": 25, "fase": "grupos", "grupo": "A", "jornada": 2, "fecha": "2026-06-18", "hora": "20:00", "sede": "akron",      "local": "México",          "visitante": "Corea del Sur" },
+    { "id": 26, "fase": "grupos", "grupo": "A", "jornada": 2, "fecha": "2026-06-18", "hora": "17:00", "sede": "arrowhead",  "local": "Sudáfrica",       "visitante": "Chequia" },
+    { "id": 27, "fase": "grupos", "grupo": "B", "jornada": 2, "fecha": "2026-06-19", "hora": "18:00", "sede": "bcplace",    "local": "Canadá",          "visitante": "Qatar" },
+    { "id": 28, "fase": "grupos", "grupo": "B", "jornada": 2, "fecha": "2026-06-19", "hora": "15:00", "sede": "bmo",        "local": "Bosnia-Herzegovina", "visitante": "Suiza" },
+    { "id": 29, "fase": "grupos", "grupo": "D", "jornada": 2, "fecha": "2026-06-19", "hora": "21:00", "sede": "lumen",      "local": "Estados Unidos",  "visitante": "Australia" },
+    { "id": 30, "fase": "grupos", "grupo": "D", "jornada": 2, "fecha": "2026-06-19", "hora": "13:00", "sede": "sofi",       "local": "Paraguay",        "visitante": "Turquía" },
+    { "id": 31, "fase": "grupos", "grupo": "C", "jornada": 2, "fecha": "2026-06-20", "hora": "15:00", "sede": "att",        "local": "Brasil",          "visitante": "Haití" },
+    { "id": 32, "fase": "grupos", "grupo": "C", "jornada": 2, "fecha": "2026-06-20", "hora": "18:00", "sede": "mercedes",   "local": "Marruecos",       "visitante": "Escocia" },
+    { "id": 33, "fase": "grupos", "grupo": "E", "jornada": 2, "fecha": "2026-06-20", "hora": "21:00", "sede": "metlife",    "local": "Alemania",        "visitante": "Costa de Marfil" },
+    { "id": 34, "fase": "grupos", "grupo": "E", "jornada": 2, "fecha": "2026-06-20", "hora": "12:00", "sede": "gillette",   "local": "Curazao",         "visitante": "Ecuador" },
+    { "id": 35, "fase": "grupos", "grupo": "F", "jornada": 2, "fecha": "2026-06-21", "hora": "15:00", "sede": "lincoln",    "local": "Países Bajos",    "visitante": "Suecia" },
+    { "id": 36, "fase": "grupos", "grupo": "F", "jornada": 2, "fecha": "2026-06-21", "hora": "18:00", "sede": "hardrock",   "local": "Japón",           "visitante": "Túnez" },
+    { "id": 37, "fase": "grupos", "grupo": "G", "jornada": 2, "fecha": "2026-06-21", "hora": "21:00", "sede": "nrg",        "local": "Bélgica",         "visitante": "Irán" },
+    { "id": 38, "fase": "grupos", "grupo": "G", "jornada": 2, "fecha": "2026-06-21", "hora": "12:00", "sede": "bbva",       "local": "Egipto",          "visitante": "Nueva Zelanda" },
+    { "id": 39, "fase": "grupos", "grupo": "H", "jornada": 2, "fecha": "2026-06-22", "hora": "15:00", "sede": "att",        "local": "España",          "visitante": "Uruguay" },
+    { "id": 40, "fase": "grupos", "grupo": "H", "jornada": 2, "fecha": "2026-06-22", "hora": "18:00", "sede": "levis",      "local": "Cabo Verde",      "visitante": "Arabia Saudita" },
+    { "id": 41, "fase": "grupos", "grupo": "I", "jornada": 2, "fecha": "2026-06-22", "hora": "21:00", "sede": "sofi",       "local": "Francia",         "visitante": "Iraq" },
+    { "id": 42, "fase": "grupos", "grupo": "I", "jornada": 2, "fecha": "2026-06-22", "hora": "12:00", "sede": "arrowhead",  "local": "Senegal",         "visitante": "Noruega" },
+    { "id": 43, "fase": "grupos", "grupo": "J", "jornada": 2, "fecha": "2026-06-23", "hora": "16:00", "sede": "lumen",      "local": "Argentina",       "visitante": "Austria" },
+    { "id": 44, "fase": "grupos", "grupo": "J", "jornada": 2, "fecha": "2026-06-23", "hora": "13:00", "sede": "akron",      "local": "Argelia",         "visitante": "Jordania" },
+    { "id": 45, "fase": "grupos", "grupo": "K", "jornada": 2, "fecha": "2026-06-23", "hora": "19:00", "sede": "metlife",    "local": "Portugal",        "visitante": "Colombia" },
+    { "id": 46, "fase": "grupos", "grupo": "K", "jornada": 2, "fecha": "2026-06-23", "hora": "22:00", "sede": "mercedes",   "local": "Uzbekistán",      "visitante": "RD Congo" },
+    { "id": 47, "fase": "grupos", "grupo": "L", "jornada": 2, "fecha": "2026-06-24", "hora": "15:00", "sede": "azteca",     "local": "Inglaterra",      "visitante": "Croacia" },
+    { "id": 48, "fase": "grupos", "grupo": "L", "jornada": 2, "fecha": "2026-06-24", "hora": "18:00", "sede": "gillette",   "local": "Panamá",          "visitante": "Ghana" },
+
+    { "id": 49, "fase": "grupos", "grupo": "A", "jornada": 3, "fecha": "2026-06-24", "hora": "20:00", "sede": "azteca",     "local": "México",          "visitante": "Chequia" },
+    { "id": 50, "fase": "grupos", "grupo": "A", "jornada": 3, "fecha": "2026-06-24", "hora": "20:00", "sede": "bbva",       "local": "Sudáfrica",       "visitante": "Corea del Sur" },
+    { "id": 51, "fase": "grupos", "grupo": "B", "jornada": 3, "fecha": "2026-06-25", "hora": "18:00", "sede": "bcplace",    "local": "Canadá",          "visitante": "Suiza" },
+    { "id": 52, "fase": "grupos", "grupo": "B", "jornada": 3, "fecha": "2026-06-25", "hora": "18:00", "sede": "bmo",        "local": "Bosnia-Herzegovina", "visitante": "Qatar" },
+    { "id": 53, "fase": "grupos", "grupo": "C", "jornada": 3, "fecha": "2026-06-25", "hora": "16:00", "sede": "lumen",      "local": "Brasil",          "visitante": "Escocia" },
+    { "id": 54, "fase": "grupos", "grupo": "C", "jornada": 3, "fecha": "2026-06-25", "hora": "16:00", "sede": "sofi",       "local": "Marruecos",       "visitante": "Haití" },
+    { "id": 55, "fase": "grupos", "grupo": "D", "jornada": 3, "fecha": "2026-06-26", "hora": "20:00", "sede": "att",        "local": "Estados Unidos",  "visitante": "Turquía" },
+    { "id": 56, "fase": "grupos", "grupo": "D", "jornada": 3, "fecha": "2026-06-26", "hora": "20:00", "sede": "mercedes",   "local": "Paraguay",        "visitante": "Australia" },
+    { "id": 57, "fase": "grupos", "grupo": "E", "jornada": 3, "fecha": "2026-06-26", "hora": "16:00", "sede": "metlife",    "local": "Alemania",        "visitante": "Ecuador" },
+    { "id": 58, "fase": "grupos", "grupo": "E", "jornada": 3, "fecha": "2026-06-26", "hora": "16:00", "sede": "gillette",   "local": "Curazao",         "visitante": "Costa de Marfil" },
+    { "id": 59, "fase": "grupos", "grupo": "F", "jornada": 3, "fecha": "2026-06-27", "hora": "20:00", "sede": "lincoln",    "local": "Países Bajos",    "visitante": "Túnez" },
+    { "id": 60, "fase": "grupos", "grupo": "F", "jornada": 3, "fecha": "2026-06-27", "hora": "20:00", "sede": "hardrock",   "local": "Japón",           "visitante": "Suecia" },
+    { "id": 61, "fase": "grupos", "grupo": "G", "jornada": 3, "fecha": "2026-06-27", "hora": "16:00", "sede": "nrg",        "local": "Bélgica",         "visitante": "Nueva Zelanda" },
+    { "id": 62, "fase": "grupos", "grupo": "G", "jornada": 3, "fecha": "2026-06-27", "hora": "16:00", "sede": "akron",      "local": "Egipto",          "visitante": "Irán" },
+    { "id": 63, "fase": "grupos", "grupo": "H", "jornada": 3, "fecha": "2026-06-28", "hora": "20:00", "sede": "att",        "local": "España",          "visitante": "Arabia Saudita" },
+    { "id": 64, "fase": "grupos", "grupo": "H", "jornada": 3, "fecha": "2026-06-28", "hora": "20:00", "sede": "levis",      "local": "Cabo Verde",      "visitante": "Uruguay" },
+    { "id": 65, "fase": "grupos", "grupo": "I", "jornada": 3, "fecha": "2026-06-28", "hora": "16:00", "sede": "sofi",       "local": "Francia",         "visitante": "Noruega" },
+    { "id": 66, "fase": "grupos", "grupo": "I", "jornada": 3, "fecha": "2026-06-28", "hora": "16:00", "sede": "arrowhead",  "local": "Senegal",         "visitante": "Iraq" },
+    { "id": 67, "fase": "grupos", "grupo": "J", "jornada": 3, "fecha": "2026-06-29", "hora": "20:00", "sede": "lumen",      "local": "Argentina",       "visitante": "Jordania" },
+    { "id": 68, "fase": "grupos", "grupo": "J", "jornada": 3, "fecha": "2026-06-29", "hora": "20:00", "sede": "akron",      "local": "Argelia",         "visitante": "Austria" },
+    { "id": 69, "fase": "grupos", "grupo": "K", "jornada": 3, "fecha": "2026-06-29", "hora": "16:00", "sede": "metlife",    "local": "Portugal",        "visitante": "RD Congo" },
+    { "id": 70, "fase": "grupos", "grupo": "K", "jornada": 3, "fecha": "2026-06-29", "hora": "16:00", "sede": "mercedes",   "local": "Uzbekistán",      "visitante": "Colombia" },
+    { "id": 71, "fase": "grupos", "grupo": "L", "jornada": 3, "fecha": "2026-06-30", "hora": "20:00", "sede": "azteca",     "local": "Inglaterra",      "visitante": "Ghana" },
+    { "id": 72, "fase": "grupos", "grupo": "L", "jornada": 3, "fecha": "2026-06-30", "hora": "20:00", "sede": "gillette",   "local": "Panamá",          "visitante": "Croacia" },
+
+    { "id": 73, "fase": "16avos", "codigo": "R32-1",  "fecha": "2026-07-02", "hora": "12:00", "sede": "azteca",     "local": "1A", "visitante": "3C/D/E/F" },
+    { "id": 74, "fase": "16avos", "codigo": "R32-2",  "fecha": "2026-07-02", "hora": "15:00", "sede": "att",        "local": "1B", "visitante": "3A/E/F" },
+    { "id": 75, "fase": "16avos", "codigo": "R32-3",  "fecha": "2026-07-02", "hora": "18:00", "sede": "lincoln",    "local": "1C", "visitante": "3D/E/F" },
+    { "id": 76, "fase": "16avos", "codigo": "R32-4",  "fecha": "2026-07-03", "hora": "12:00", "sede": "sofi",       "local": "1D", "visitante": "3B/E/F" },
+    { "id": 77, "fase": "16avos", "codigo": "R32-5",  "fecha": "2026-07-03", "hora": "15:00", "sede": "metlife",    "local": "1E", "visitante": "3A/B/C/D" },
+    { "id": 78, "fase": "16avos", "codigo": "R32-6",  "fecha": "2026-07-03", "hora": "18:00", "sede": "mercedes",   "local": "1F", "visitante": "3A/B/C" },
+    { "id": 79, "fase": "16avos", "codigo": "R32-7",  "fecha": "2026-07-04", "hora": "12:00", "sede": "nrg",        "local": "1G", "visitante": "3A/B/C/D" },
+    { "id": 80, "fase": "16avos", "codigo": "R32-8",  "fecha": "2026-07-04", "hora": "15:00", "sede": "lumen",      "local": "1H", "visitante": "3A/B/C/D" },
+    { "id": 81, "fase": "16avos", "codigo": "R32-9",  "fecha": "2026-07-04", "hora": "18:00", "sede": "arrowhead",  "local": "1I", "visitante": "3E/H/I/J/K" },
+    { "id": 82, "fase": "16avos", "codigo": "R32-10", "fecha": "2026-07-05", "hora": "12:00", "sede": "hardrock",   "local": "1J", "visitante": "3E/H/I/J/K" },
+    { "id": 83, "fase": "16avos", "codigo": "R32-11", "fecha": "2026-07-05", "hora": "15:00", "sede": "levis",      "local": "1K", "visitante": "3G/H/I/J/L" },
+    { "id": 84, "fase": "16avos", "codigo": "R32-12", "fecha": "2026-07-05", "hora": "18:00", "sede": "bcplace",    "local": "1L", "visitante": "3G/H/I/J/K" },
+    { "id": 85, "fase": "16avos", "codigo": "R32-13", "fecha": "2026-07-05", "hora": "21:00", "sede": "gillette",   "local": "2A", "visitante": "2C" },
+    { "id": 86, "fase": "16avos", "codigo": "R32-14", "fecha": "2026-07-06", "hora": "15:00", "sede": "bmo",        "local": "2B", "visitante": "2D" },
+    { "id": 87, "fase": "16avos", "codigo": "R32-15", "fecha": "2026-07-06", "hora": "18:00", "sede": "bbva",       "local": "2E", "visitante": "2G" },
+    { "id": 88, "fase": "16avos", "codigo": "R32-16", "fecha": "2026-07-06", "hora": "21:00", "sede": "akron",      "local": "2F", "visitante": "2H" },
+
+    { "id": 89, "fase": "octavos", "codigo": "R16-1", "fecha": "2026-07-08", "hora": "16:00", "sede": "metlife",  "local": "G R32-1", "visitante": "G R32-2" },
+    { "id": 90, "fase": "octavos", "codigo": "R16-2", "fecha": "2026-07-08", "hora": "20:00", "sede": "sofi",     "local": "G R32-3", "visitante": "G R32-4" },
+    { "id": 91, "fase": "octavos", "codigo": "R16-3", "fecha": "2026-07-09", "hora": "16:00", "sede": "att",      "local": "G R32-5", "visitante": "G R32-6" },
+    { "id": 92, "fase": "octavos", "codigo": "R16-4", "fecha": "2026-07-09", "hora": "20:00", "sede": "lincoln",  "local": "G R32-7", "visitante": "G R32-8" },
+    { "id": 93, "fase": "octavos", "codigo": "R16-5", "fecha": "2026-07-10", "hora": "16:00", "sede": "mercedes", "local": "G R32-9", "visitante": "G R32-10" },
+    { "id": 94, "fase": "octavos", "codigo": "R16-6", "fecha": "2026-07-10", "hora": "20:00", "sede": "lumen",    "local": "G R32-11", "visitante": "G R32-12" },
+    { "id": 95, "fase": "octavos", "codigo": "R16-7", "fecha": "2026-07-11", "hora": "16:00", "sede": "azteca",   "local": "G R32-13", "visitante": "G R32-14" },
+    { "id": 96, "fase": "octavos", "codigo": "R16-8", "fecha": "2026-07-11", "hora": "20:00", "sede": "hardrock", "local": "G R32-15", "visitante": "G R32-16" },
+
+    { "id": 97,  "fase": "cuartos", "codigo": "QF-1", "fecha": "2026-07-13", "hora": "16:00", "sede": "metlife",  "local": "G R16-1", "visitante": "G R16-2" },
+    { "id": 98,  "fase": "cuartos", "codigo": "QF-2", "fecha": "2026-07-13", "hora": "20:00", "sede": "att",      "local": "G R16-3", "visitante": "G R16-4" },
+    { "id": 99,  "fase": "cuartos", "codigo": "QF-3", "fecha": "2026-07-14", "hora": "16:00", "sede": "sofi",     "local": "G R16-5", "visitante": "G R16-6" },
+    { "id": 100, "fase": "cuartos", "codigo": "QF-4", "fecha": "2026-07-14", "hora": "20:00", "sede": "lincoln",  "local": "G R16-7", "visitante": "G R16-8" },
+
+    { "id": 101, "fase": "semi",   "codigo": "SF-1",  "fecha": "2026-07-16", "hora": "20:00", "sede": "att",     "local": "G QF-1", "visitante": "G QF-2" },
+    { "id": 102, "fase": "semi",   "codigo": "SF-2",  "fecha": "2026-07-17", "hora": "20:00", "sede": "mercedes","local": "G QF-3", "visitante": "G QF-4" },
+
+    { "id": 103, "fase": "tercer", "codigo": "3RD",   "fecha": "2026-07-18", "hora": "16:00", "sede": "hardrock","local": "P SF-1", "visitante": "P SF-2" },
+    { "id": 104, "fase": "final",  "codigo": "FINAL", "fecha": "2026-07-19", "hora": "16:00", "sede": "metlife", "local": "G SF-1", "visitante": "G SF-2" }
+  ]
+}

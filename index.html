@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mundial 2026 · AsesorarSeg te asegura la info</title>
+    <meta name="description" content="Fixture interactivo del Mundial 2026. Cargá resultados, mirá grupos, sedes y la llave eliminatoria. Cortesía de AsesorarSeg." />
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <img src="./assets/logo-full.png" alt="AsesorarSeg · Asesoramiento Corporativo en Seguridad" class="logo" />
+            <div class="brand">
+                <div class="brand-claim">te asegura la info del <span class="orange">mundial</span></div>
+            </div>
+        </div>
+        <nav class="tabs" role="tablist">
+            <button class="tab active" data-view="grupos" role="tab">Grupos</button>
+            <button class="tab" data-view="fixture" role="tab">Fixture</button>
+            <button class="tab" data-view="sedes" role="tab">Sedes</button>
+            <button class="tab" data-view="eliminatorias" role="tab">Eliminatorias</button>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <h1 class="hero-title">Copa Mundial FIFA 2026</h1>
+            <p class="hero-sub">11 jun → 19 jul · 48 selecciones · 16 sedes · 104 partidos · USA · Canadá · México</p>
+            <p class="storage-note">Tus resultados se guardan en este navegador. Si abrís el link en otro dispositivo, empezás de cero.</p>
+            <div class="hero-actions">
+                <button id="btn-share" class="btn-ghost" title="Copiar el link de la app">Copiar link</button>
+                <button id="btn-reset" class="btn-ghost" title="Borra los resultados que cargaste">Reiniciar resultados</button>
+                <span id="status-info" class="status-info"></span>
+            </div>
+        </section>
+
+        <section id="view-grupos" class="view view-active">
+            <div id="groups-grid" class="groups-grid"></div>
+        </section>
+
+        <section id="view-fixture" class="view">
+            <div class="filters">
+                <label class="filter">
+                    <span>Filtrar por fase</span>
+                    <select id="filter-fase">
+                        <option value="todos">Todas</option>
+                        <option value="grupos">Fase de grupos</option>
+                        <option value="16avos">16avos de final</option>
+                        <option value="octavos">Octavos</option>
+                        <option value="cuartos">Cuartos</option>
+                        <option value="semi">Semifinales</option>
+                        <option value="tercer">Tercer puesto</option>
+                        <option value="final">Final</option>
+                    </select>
+                </label>
+                <label class="filter">
+                    <span>Filtrar por grupo</span>
+                    <select id="filter-grupo">
+                        <option value="todos">Todos</option>
+                    </select>
+                </label>
+            </div>
+            <div id="fixture-list" class="fixture-list"></div>
+        </section>
+
+        <section id="view-sedes" class="view">
+            <div id="venues-grid" class="venues-grid"></div>
+        </section>
+
+        <section id="view-eliminatorias" class="view">
+            <div id="bracket" class="bracket"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <img src="./assets/logo-full.png" alt="AsesorarSeg" class="footer-logo" />
+            <div class="footer-text">
+                Tu seguridad es nuestra estrategia. Tu mundial, también.
+            </div>
+        </div>
+    </footer>
+
+    <script src="./app.js" defer></script>
+</body>
+</html>
